@@ -1,13 +1,14 @@
 import SectionTitle from '@/components/ui/SectionTitle'
 import Button from '@/components/ui/Button'
 import { personalInfo, socialLinks } from '@/lib/data'
-import { Github, Linkedin, Mail, BookOpen } from 'lucide-react'
+import { Github, Linkedin, Mail, BookOpen, Instagram } from 'lucide-react'
 
 const iconMap: Record<string, any> = {
     github: Github,
     linkedin: Linkedin,
     mail: Mail,
     book: BookOpen,
+    instagram: Instagram,
 }
 
 export default function Contact() {

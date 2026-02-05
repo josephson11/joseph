@@ -4,7 +4,6 @@ const nextConfig = {
         domains: [],
     },
     experimental: {
-        optimizeCss: true,
     },
 }
 

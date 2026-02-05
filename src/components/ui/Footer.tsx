@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, BookOpen } from 'lucide-react'
+import { Github, Linkedin, Mail, BookOpen, Instagram } from 'lucide-react'
 import { socialLinks } from '@/lib/data'
 
 const iconMap: Record<string, any> = {
@@ -6,6 +6,7 @@ const iconMap: Record<string, any> = {
     linkedin: Linkedin,
     mail: Mail,
     book: BookOpen,
+    instagram: Instagram,
 }
 
 export default function Footer() {
